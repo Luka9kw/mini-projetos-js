@@ -36,14 +36,14 @@ main {
     height: 50px;
     align-items: center;
     justify-content: space-between;
-    align-items: center;
 }
 
 .input input {
     width: 200px;
-    height: 30px;
+    height: 50px;
     border-radius: 5px;
-    font: bold 1.2em serif;
+    border: none;
+    font: bold 1.4em serif;
     text-align: center;
 }
 
@@ -62,10 +62,16 @@ main {
 }
 
 .result {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    padding: 20px;
     width: 300px;
     height: 150px;
     border-radius: 5px;
     font: italic 1.5em serif;
     color: rgb(255, 198, 0);
     background-color: black;
+    box-sizing: border-box;
+    user-select: none;
 }
