@@ -4,17 +4,14 @@ const btnOff = document.querySelector("#btn-off");
 
 function lampOn() {
   lampImg.src = "img/ligada.jpg";
-  console.log("on");
 }
 
 function lampOff() {
   lampImg.src = "img/desligada.jpg";
-  console.log("off");
 }
 
 function lampBreak() {
   lampImg.src = "img/quebrada.jpg";
-  console.log("break");
 }
 
 // Buttons
