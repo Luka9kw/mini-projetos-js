@@ -1,0 +1,21 @@
+#lamp-area {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+h1 {
+  text-align: center;
+}
+
+#lamp-img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#btn-on,
+#btn-off {
+  width: 70px;
+}
