@@ -62,6 +62,17 @@ const winCondition = () => {
     }
   }
 };
+
+// Teclas para aumentar, diminuir os score, resetar e checar os resultados.
+document.addEventListener('keydown', function (e) {
+  userInput.focus();
+  if (e.key === 'Enter') {
+    btnCheck.dispatchEvent(new Event('click'));
+  } else if (e.key === 'Escape') {
+    btnAgain.dispatchEvent(new Event('click'));
+  }
+});
+
 // Botoes jogar e reiniciar
 btnCheck.addEventListener('click', winCondition);
 btnAgain.addEventListener('click', resetGame);
